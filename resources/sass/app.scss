@@ -1,0 +1,174 @@
+// Fonts
+// @import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+// @import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+
+// css
+#color{
+    color: #393E46;
+    color: #6D9886;
+    color: #F2E7D5;
+    color: #F7F7F7;
+}
+
+#bg-container{
+//  background-color: #393E46;
+ background: linear-gradient(
+    to right,
+    #393E46 0%,
+    #393E46 50%,
+    #F2E7D5 50%,
+    #F2E7D5 100%
+    );
+    color: #F7F7F7;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#btn-welcome{
+    width:200px;
+    margin-top: 10px;
+    background-color: #393E46;
+    color: #F7F7F7;
+    border-color:#F7F7F7;
+    font-weight: bold;
+    transition: 0.3s;
+}
+#btn-welcome:hover{
+    background-color: #6D9886;
+    transition: 0.3s;
+    color: #F2E7D5;
+}
+
+#btn-index{
+    // width:150px;
+    margin-top: 10px;
+    background-color: #6D9886;
+    color: #F7F7F7;
+    // border: none;
+    font-weight: bold;
+    transition: 0.3s;
+    scale: 1;
+}
+
+#btn-index:hover{
+    scale: 1.05;
+    transition: 0.3s;
+    background-color: #393E46;
+    color: #F2E7D5;
+}
+
+#btn-create{
+    // width:225px;
+    margin-top: 10px;
+    background-color: #6D9886;
+    color: #F7F7F7;
+    // border: none;
+    font-weight: bold;
+    transition: 0.3s;
+    // scale: 1;
+}
+
+#btn-create:hover{
+    // scale: 1.05;
+    transition: 0.3s;
+    background-color: #393E46;
+    color: #F2E7D5;
+}
+#btn-edit{
+    // width:225px;
+    margin-top: 10px;
+    background-color: #6D9886;
+    color: #F7F7F7;
+    // border: none;
+    font-weight: bold;
+    transition: 0.3s;
+    // scale: 1;
+}
+
+#btn-edit:hover{
+    // scale: 1.05;
+    transition: 0.3s;
+    background-color: #393E46;
+    color: #F2E7D5;
+}
+#btn-index2{
+    // width:225px;
+    margin-top: 10px;
+    background-color: #6D9886;
+    color: #F7F7F7;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s;
+    scale: 1;
+}
+
+#btn-index2:hover{
+    scale: 1.05;
+    transition: 0.3s;
+    background-color: #393E46;
+    color: #F7F7F7;
+}
+
+#navbarSupportedContent{
+    background-color: #393E46;
+    height: 100px;
+}
+
+
+#fprofile{
+    width: 250px ;
+}
+
+#nav-index{
+    color: #F7F7F7;
+    transition: 0.3s;
+    scale: 1;
+}
+#nav-index:hover{
+    color: #6D9886;
+    transition: 0.3s;
+    scale: 1.02;
+}
+
+#act-show{
+    background-color: #8aae9f;
+    color: #393E46;
+    transition: 0.03;
+}
+#act-show:hover{
+    color: #F7F7F7;
+    background-color: #393E46;
+    transition: 0.03;
+}
+#act-edit{
+    background-color: #F2E7D5;
+    color: #393E46;
+    transition: 0.03;
+}
+#act-edit:hover{
+    color: #F7F7F7;
+    background-color: #393E46;
+    transition: 0.03;
+}
+#act-del{
+    background-color: #F7F7F7;
+    color: #393E46;
+    transition: 0.03;
+}
+#act-del:hover{
+    color: #F7F7F7;
+    background-color: #393E46;
+    transition: 0.03;
+}
